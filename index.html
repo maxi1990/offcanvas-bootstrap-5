@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body style="position: relative;"
+data-bs-spy="scroll"
+data-bs-target="#navbarCanvas">
+
+
+    <nav class="navbar navbar-dark bg-primary fixed-top" id="navbarCanvas">
+        <div class="container">
+            <i class="bi bi-list text-white" type = "button" aria-controls="offcanvasDemo1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDemo1"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+      <section id="uno" class="vh-100 pt-5">
+            <h2 class="mt-5 display-5">uno</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe perferendis nisi molestias quae, a cumque vel est recusandae illum hic culpa atque suscipit quo voluptatem architecto at iste eum laudantium?</p>
+      </section>
+
+      <section id="dos" class="vh-100 pt-5">
+        <h2 class="mt-5 display-5">dos</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe perferendis nisi molestias quae, a cumque vel est recusandae illum hic culpa atque suscipit quo voluptatem architecto at iste eum laudantium?</p>
+  </section>
+
+  <section id="tres" class="vh-100 pt-5">
+    <h2 class="mt-5 display-5">tres</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe perferendis nisi molestias quae, a cumque vel est recusandae illum hic culpa atque suscipit quo voluptatem architecto at iste eum laudantium?</p>
+</section>
+    </div>
+
+
+    <div class="offcanvas offcanvas-start bg-primary text-white" id="offcanvasDemo1" aria-labelledby="offcanvasDemo1Label">
+
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title text-center">offcanvas-title</h2>
+
+            <h2 type="button"  data-bs-dismiss="offcanvas" aria-label="Close">
+
+                <i class="bi bi-x-square"></i>
+            </h2>
+        </div>
+
+        <div class="offcanvas-body">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius nemo incidunt animi vero maiores omnis facere nihil error. Ex nulla, eaque blanditiis rem aspernatur illo quaerat placeat culpa est.</p>
+            <div class="d-grid gap-2" data-bs-dismiss="offcanvas">
+
+                <a class="btn btn-info text-white" href="#uno">
+                    <i class="bi bi-google"></i> uno
+                </a>
+
+                <a class="btn btn-info text-white" href="#dos"> 
+                    <i class="bi bi-youtube"> </i> dos
+                </a>
+
+                <a class="btn btn-info text-white" href="#tres">
+                    <i class="bi bi-android2"></i> tres
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
